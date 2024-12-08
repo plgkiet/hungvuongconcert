@@ -1763,11 +1763,12 @@ img {
 }
 
 /* ntt */
-.ntt #ntt-title {
+
+/* .ntt #ntt-title {
   color: wheat;
   font-size: 50px;
   font-family: 'DFVN 36daysoftype', sans-serif;
-}
+} */
 
 @keyframes slide {
   from {
