@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'DFVN 36daysoftype'; 
-  src: url('./fonts/dfvn\ 36daysoftype.otf') format('opentype'); 
+  src: url(./fonts/dfvn36daysoftype.otf) format('opentype'); 
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'Ganh Type - Regular'; 
-  src: url('./fonts/ganh\ type\ -\ regular.otf') format('opentype'); 
+  src: url(./fonts/ganhtyperegular.otf) format('opentype'); 
   font-style: normal;
   font-weight: normal;
   font-display: swap;
