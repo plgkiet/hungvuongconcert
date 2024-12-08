@@ -1761,3 +1761,100 @@ img {
   font-style: normal;
   font-display: swap;
 }
+
+/* ntt */
+.ntt #ntt-title {
+  color: wheat;
+  font-size: 50px;
+  font-family: 'DFVN 36daysoftype', sans-serif;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.ntt-logo {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.ntt-logo:before,
+.ntt-logo:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.ntt-logo:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.ntt-logo:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.ntt-logo:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  width: max-content; 
+
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 100px;
+  margin: 0 40px;
+}
+
+/* footer */
+.footer {
+  color: white; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.content-social {
+  position: relative;
+  bottom: 60px;
+}
+
+.footer p {
+  color: white;
+  font-size: 50px;
+  font-family: 'DFVN 36daysoftype', sans-serif;
+}
+
+.footer .logo-social a {
+  display: inline-block; 
+  margin-right: 20px;
+  position: relative;
+  left: 10px;
+}
+
+.footer .logo-social a img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain; 
+  cursor: pointer;
+}
