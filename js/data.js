@@ -39,6 +39,7 @@ const dataCol1 = [
         id: 'p1_6',
         title: 'anh6',
         img: './images/data/6.webp',
+        type: 'image',
         backgroundColor: '#72A0C1',
     },
     {
@@ -68,7 +69,7 @@ const dataCol2 = [
     {
         id: 'p2_3',
         title: 'anh10',
-        img: '10.webp',
+        img: './images/data/10.webp',
         type: 'image',
         backgroundColor: '#72A0C1',
     },
