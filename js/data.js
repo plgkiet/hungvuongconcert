@@ -1,9 +1,8 @@
 const dataCol1 = [
     {
         id: 'p1_1',
-        title: 'dctrng',
-         img: 'https://i.ibb.co/LngGFVd/casi.jpg',
-        // img: 'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/426183712_891496559439141_5366066750709923062_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEBzuo_0KjLl-SINQYtm7_-wfeJXkHwN3LB94leQfA3cvr0ilX6bDHE443grtGMDST5HZSvu2z3lJYLTSLfkCJy&_nc_ohc=RDpWlovn-SsQ7kNvgFq96pa&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=AjvSTPHP14qU8nJh0qKu_Km&oh=00_AYBBkWUh3d_OFbJCE0JdiB1E2diVgu0agyyeD01CmXJmGw&oe=672A341F',
+        title: 'anh1',
+         img: './images/data/1.webp',
         type: 'image',
         backgroundColor: '#72A0C1',
     },
