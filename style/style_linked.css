@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  font-family: "Primary";
+  font-family: "Primary", "Ganh Type - Regular", "DFVN 36daysoftype";
   background-color: var(--primary);
   color: var(--secondary);
 }
