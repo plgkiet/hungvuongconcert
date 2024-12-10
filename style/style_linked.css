@@ -614,7 +614,7 @@ body {
   #talent-section {
     background: none !important;
     background-color: black !important;
-    margin-top: 200px !important;
+    margin-top: 1000px !important;
   }
 
   #talent-title {
@@ -1457,6 +1457,8 @@ body {
     display: block;
     text-align: center;
     margin-bottom: 10px;
+    letter-spacing: 1px; /* Điều chỉnh khoảng cách giữa các ký tự */
+    line-height: 1.5; 
   }
 }
 
