@@ -878,6 +878,12 @@ body {
     display: block;  
   }
 
+  .section.orange p {
+    display: block;  /* Đổi thành block để xuống dòng */
+    text-align: center;  /* Căn giữa */
+    margin-bottom: 10px;  /* Khoảng cách dưới tiêu đề */
+  }
+
 
   .talent .heading-div {
     flex-wrap: wrap;
@@ -1632,6 +1638,7 @@ img {
 .section.orange p {
   font-family: 'DFVN 36daysoftype', sans-serif;
   font-size: 50px;
+  white-space: nowrap;
 }
 
 .section.orange.hero-text {
