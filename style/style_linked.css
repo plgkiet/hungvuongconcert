@@ -618,7 +618,7 @@ body {
     min-height: auto;
   }
 
-  .talent .section {
+  #talent-section  {
     background: none; 
     background-color: black; 
   }
