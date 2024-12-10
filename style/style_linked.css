@@ -1306,6 +1306,7 @@ body {
   color: white;
   font-size: 50px;
   font-family: 'DFVN 36daysoftype', sans-serif;
+  white-space: nowrap;
 }
 
 .faq-list {
@@ -1433,6 +1434,12 @@ body {
   .faq-wrapper {
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .faq #faq-title {
+    display: block;  /* Đổi thành block để xuống dòng */
+    text-align: center;  /* Căn giữa */
+    margin-bottom: 10px;  /* Khoảng cách dưới tiêu đề */
   }
 }
 
