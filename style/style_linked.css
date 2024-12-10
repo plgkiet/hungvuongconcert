@@ -1461,12 +1461,10 @@ body {
   }
 
   .faq #faq-title {
+    font-size: 24px;
     display: block;
-    /* Đổi thành block để xuống dòng */
     text-align: center;
-    /* Căn giữa */
     margin-bottom: 10px;
-    /* Khoảng cách dưới tiêu đề */
   }
 }
 
