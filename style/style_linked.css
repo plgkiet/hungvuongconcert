@@ -107,6 +107,7 @@ html.lenis body {
   width: 100%;
   z-index: 100;
   color: white;
+  background-color: black;
   mix-blend-mode: difference;
 }
 
@@ -336,10 +337,10 @@ html.lenis body {
 
 :root {
   --text--orange: #ff451c;
-  --text--white: white;
+  /* --text--white: white; */
   --padding--64: 64px;
   --padding--40: 40px;
-  --bg--beige: #fdf7ec;
+  /* --bg--beige: #fdf7ec; */
   --padding--48: 48px;
   --padding--32: 32px;
   --bg--orange: #ff451c;
@@ -348,12 +349,12 @@ html.lenis body {
   --padding--24: 24px;
   /* --gap--32: 32px; */
   --gap--64: 64px;
-  --white: white;
+  /* --white: white; */
   --gap--8: 8px;
-  --bg--white: white;
+  /* --bg--white: white; */
   --gap--12: 12px;
   --padding--8: 8px;
-  --border--darkbeige: #efe0c4;
+  /* --border--darkbeige: #efe0c4; */
   --black: black;
   --hover--orange: #cc3716;
   --padding--164: 0px;
@@ -361,7 +362,8 @@ html.lenis body {
 
 
 body {
-  color: var(--text--orange);
+  /* color: var(--text--orange); */
+  background-color: black;
   font-family: Stabilgrotesk, sans-serif;
   font-size: 20px;
   font-weight: 400;
