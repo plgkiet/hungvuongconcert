@@ -613,9 +613,21 @@ body {
 
 @media screen and (max-width: 991px) {
   #talent-section {
-    background-size: contain; /* Giảm kích thước ảnh nền sao cho vừa với phần tử */
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center; /* Đảm bảo ảnh nền căn giữa */
+    background-position: center; 
+  }
+
+  #talent-title {
+    font-size: 24px;  
+    line-height: 32px;  
+  }
+
+  #talent-title .letterU {
+    font-size: 1em;  
+  }
+  #talent-title .lineup {
+    font-size: 1em;  
   }
 
   .talent .section.beige.hero,
