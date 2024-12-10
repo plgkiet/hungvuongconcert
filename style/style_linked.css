@@ -1182,7 +1182,13 @@ body {
     font-size: 14px;
     line-height: 22px;
   }
-
+  .ticket-item-right {
+    flex-direction: column;
+    /* Stack content vertically */
+    align-items: center;
+    /* Center content */
+  }
+  
   .button {
     padding: 0.5rem 1rem;
     /* Smaller button padding */
