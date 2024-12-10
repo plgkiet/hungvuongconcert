@@ -179,6 +179,9 @@ html.lenis body {
   padding: 1rem;
   display: block;
   margin-top: 50px;
+  background: linear-gradient(to right, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero_title:nth-child(1) {
