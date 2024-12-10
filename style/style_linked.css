@@ -1316,7 +1316,7 @@ body {
   color: white;
   font-size: 50px;
   font-family: 'DFVN 36daysoftype', sans-serif;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .faq-list {
