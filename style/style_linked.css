@@ -614,6 +614,7 @@ body {
   #talent-section {
     background: none;
     background-color: black;
+    margin-top: 500px;
   }
 
   #talent-title {
@@ -1453,7 +1454,6 @@ body {
   }
 
   .faq #faq-title {
-    font-size: 24px;
     display: block;
     text-align: center;
     margin-bottom: 10px;
