@@ -1182,12 +1182,14 @@ body {
     font-size: 14px;
     line-height: 22px;
   }
-  .ticket-item-right {
-    flex-direction: column;
-    /* Stack content vertically */
-    align-items: center;
-    /* Center content */
-  }
+
+ .ticket-item-right {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+}
 
   .button {
     padding: 0.5rem 1rem;
@@ -1238,13 +1240,6 @@ body {
     text-align: center;
   }
 
- .ticket-item-right {
-    flex-direction: column;
-    /* Stack content vertically */
-    align-items: center;
-    /* Center content */
-  }
-
   .button {
     width: 100%;
     /* Full-width button on mobile */
@@ -1252,15 +1247,23 @@ body {
     padding: 0.5rem;
   }
 
+  .ticket-item-right {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+  }
+
   .check-btn {
     display: block;
-    width: 80%; /* Chiếm 80% chiều rộng */
-    margin: 1rem auto; /* Căn giữa và thêm khoảng cách */
+    width: 80%; 
+    margin: 1rem auto; 
     text-align: center;
     padding: 0.5rem;
     font-size: 16px;
-    background-color: #000; /* Màu nền nổi bật */
-    color: #fff; /* Chữ màu trắng */
+    background-color: #000; 
+    color: #fff; 
     border: none;
     border-radius: 4px;
     cursor: pointer;
