@@ -612,15 +612,15 @@ body {
 
 
 @media screen and (max-width: 991px) {
+  #talent-section {
+    background-size: contain; /* Giảm kích thước ảnh nền sao cho vừa với phần tử */
+    background-repeat: no-repeat;
+    background-position: center; /* Đảm bảo ảnh nền căn giữa */
+  }
 
   .talent .section.beige.hero,
   .talent .section.orange.hero {
     min-height: auto;
-  }
-
-  #talent-section  {
-    background: none; 
-    background-color: black; 
   }
 
   .wrapper.home-speaker-wrapper {
