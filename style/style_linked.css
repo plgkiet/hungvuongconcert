@@ -8,16 +8,16 @@
 }
 
 @font-face {
-  font-family: 'DFVN 36daysoftype'; 
-  src: url(/hungvuongconcert/fonts/dfvn36daysoftype.otf) format('opentype'); 
+  font-family: 'DFVN 36daysoftype';
+  src: url(/hungvuongconcert/fonts/dfvn36daysoftype.otf) format('opentype');
   font-style: normal;
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Ganh Type - Regular'; 
-  src: url(/hungvuongconcert/fonts/ganhtyperegular.otf) format('opentype'); 
+  font-family: 'Ganh Type - Regular';
+  src: url(/hungvuongconcert/fonts/ganhtyperegular.otf) format('opentype');
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -115,7 +115,7 @@ html.lenis body {
   font-family: 'DFVN 36daysoftype', sans-serif;
 }
 
-.nav_wrapper  .ganh {
+.nav_wrapper .ganh {
   font-family: 'Ganh Type - Regular', sans-serif;
 }
 
@@ -157,7 +157,7 @@ html.lenis body {
 
 /* hero section */
 .content {
-  height: 100vh; 
+  height: 100vh;
   width: 100%;
 }
 
@@ -172,7 +172,7 @@ html.lenis body {
 
 .hero_title {
   text-align: center;
-  font-weight: normal; 
+  font-weight: normal;
   text-transform: none;
   font-family: 'DFVN 36daysoftype', sans-serif;
   margin: 0;
@@ -186,7 +186,7 @@ html.lenis body {
 
 .hero_title:nth-child(1) {
   /* border-bottom: 1px solid var(--secondary); */
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 
 }
 
@@ -378,6 +378,13 @@ body {
 }
 
 
+#talent-section {
+  margin-top: 1765px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: url('hungvuongconcert/images/kv/talent-bg.png') no-repeat fixed;
+  background-size: cover;
+}
 
 .talent {
   /* background-color: black; */
@@ -410,25 +417,25 @@ body {
   color: white;
   font-size: 50px;
   margin: 0;
-  display: flex; 
-  align-items: baseline; 
+  display: flex;
+  align-items: baseline;
 }
 
 .letterU {
   font-family: 'DFVN 36daysoftype', sans-serif;
-  font-size: 50px; 
-  margin-right: 5px; 
+  font-size: 50px;
+  margin-right: 5px;
 }
 
 .lineup {
   font-family: 'DFVN 36daysoftype', sans-serif;
-  font-size: 50px; 
+  font-size: 50px;
   margin-left: 15px;
 }
 
 .speaker-img {
-  border: 1px solid white; 
-  border-radius: 8px; 
+  border: 1px solid white;
+  border-radius: 8px;
   box-sizing: border-box;
 }
 
@@ -618,15 +625,16 @@ body {
   }
 
   #talent-title {
-    font-size: 24px;  
-    line-height: 32px;  
+    font-size: 24px;
+    line-height: 32px;
   }
 
   #talent-title .letterU {
-    font-size: 1em;  
+    font-size: 1em;
   }
+
   #talent-title .lineup {
-    font-size: 1em;  
+    font-size: 1em;
   }
 
   .talent .section.beige.hero,
@@ -872,13 +880,16 @@ body {
   }
 
   .map .heading-div {
-    display: block;  
+    display: block;
   }
 
   .section.orange p {
-    display: block;  /* Đổi thành block để xuống dòng */
-    text-align: center;  /* Căn giữa */
-    margin-bottom: 10px;  /* Khoảng cách dưới tiêu đề */
+    display: block;
+    /* Đổi thành block để xuống dòng */
+    text-align: center;
+    /* Căn giữa */
+    margin-bottom: 10px;
+    /* Khoảng cách dưới tiêu đề */
   }
 
 
@@ -1017,15 +1028,15 @@ body {
   /* background: linear-gradient(to right, black, #0066FF, #000642);  */
   /* background: linear-gradient(45deg, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642); */
   background: linear-gradient(to right, #BF91F1, #1DFFA2, #0066FF, #000642);
-    /* background: linear-gradient(to right, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642); */
+  /* background: linear-gradient(to right, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642); */
 
 
-  display: flex; 
+  display: flex;
   padding: 50px;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  box-sizing: border-box; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 
 }
 
@@ -1057,8 +1068,8 @@ body {
   margin-top: 5rem;
 }
 
-.ticket-button-div  .button{
-  background: linear-gradient(to right,#1DFFA2, #0066FF, #000642); 
+.ticket-button-div .button {
+  background: linear-gradient(to right, #1DFFA2, #0066FF, #000642);
 
 }
 
@@ -1090,7 +1101,7 @@ body {
 
 .ticket-info {
   font-family: 'Ganh Type - Regular', sans-serif;
- 
+
 }
 
 .prize-text {
@@ -1111,11 +1122,15 @@ body {
 }
 
 .bubble-wrapper h3 {
-  background: linear-gradient(to right, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642); /* Gradient */
-  -webkit-background-clip: text; /* Chỉ áp dụng gradient vào chữ */
-  -webkit-text-fill-color: transparent; /* Làm cho phần không có màu nền thành trong suốt */
-  text-align: center; /* Căn giữa chữ */  
-  
+  background: linear-gradient(to right, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642);
+  /* Gradient */
+  -webkit-background-clip: text;
+  /* Chỉ áp dụng gradient vào chữ */
+  -webkit-text-fill-color: transparent;
+  /* Làm cho phần không có màu nền thành trong suốt */
+  text-align: center;
+  /* Căn giữa chữ */
+
 }
 
 .event-section {
@@ -1123,49 +1138,51 @@ body {
 }
 
 .event-section .row {
-  display: flex; 
-  align-items: stretch; 
+  display: flex;
+  align-items: stretch;
 }
 
 .event-section .col {
-  flex: 1; 
+  flex: 1;
 }
 
 .event-section .image-col {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  padding: 10px; 
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .image-col img {
   width: 200px;
   height: auto;
-  box-shadow: 0 4px 8px whitesmoke; /* Hiệu ứng đổ bóng */
+  box-shadow: 0 4px 8px whitesmoke;
+  /* Hiệu ứng đổ bóng */
 }
 
 .event-section .event-image {
-  max-width: 100%; 
-  max-height: 100%; 
-  object-fit: cover; 
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .event-section .text-col {
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 1.6;
-  color:white; 
+  color: white;
 }
 
 .event-text p {
   border: 1px solid white;
   border-radius: 5px;
-  box-shadow: 0 4px 4px whitesmoke; /* Hiệu ứng đổ bóng */
+  box-shadow: 0 4px 4px whitesmoke;
+  /* Hiệu ứng đổ bóng */
   padding: 5px;
   /* background: white; */
   color: white;
-  text-align: center;  
+  text-align: center;
   font-family: 'DFVN 36daysoftype', sans-serif;
-  font-size: 25px; 
+  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -1205,13 +1222,13 @@ body {
     line-height: 22px;
   }
 
- .ticket-item-right {
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  text-align: center; 
-}
+  .ticket-item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
   .button {
     padding: 0.5rem 1rem;
@@ -1271,21 +1288,21 @@ body {
 
   .ticket-item-right {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .check-btn {
     display: block;
-    width: 80%; 
-    margin: 1rem auto; 
+    width: 80%;
+    margin: 1rem auto;
     text-align: center;
     padding: 0.5rem;
     font-size: 16px;
-    background-color: #000; 
-    color: #fff; 
+    background-color: #000;
+    color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -1321,7 +1338,8 @@ body {
   grid-column-gap: var(--gap--24);
   grid-row-gap: var(--gap--24);
   cursor: pointer;
-  background: linear-gradient(to right, #1DFFA2, #0066FF, #000642); /* Gradient */
+  background: linear-gradient(to right, #1DFFA2, #0066FF, #000642);
+  /* Gradient */
   border-radius: 16px;
   flex-direction: column;
   display: flex;
@@ -1403,24 +1421,30 @@ body {
   }
 
   .event-section .row {
-    flex-direction: column; /* Chuyển thành cột dọc cho thiết bị nhỏ */
+    flex-direction: column;
+    /* Chuyển thành cột dọc cho thiết bị nhỏ */
   }
 
   .event-section .image-col,
   .event-section .text-col {
-    width: 100%; /* Đảm bảo mỗi phần chiếm 100% chiều rộng */
-    margin-bottom: 20px; /* Khoảng cách giữa ảnh và văn bản */
+    width: 100%;
+    /* Đảm bảo mỗi phần chiếm 100% chiều rộng */
+    margin-bottom: 20px;
+    /* Khoảng cách giữa ảnh và văn bản */
   }
 
   .image-col img {
-    width: 100%; /* Ảnh chiếm toàn bộ chiều rộng */
-    height: auto; /* Đảm bảo ảnh giữ tỷ lệ */
+    width: 100%;
+    /* Ảnh chiếm toàn bộ chiều rộng */
+    height: auto;
+    /* Đảm bảo ảnh giữ tỷ lệ */
   }
 
   .event-text p {
-    font-size: 20px; /* Giảm kích thước chữ trên mobile */
+    font-size: 20px;
+    /* Giảm kích thước chữ trên mobile */
   }
- 
+
   .event-text {
     color: white;
     padding: 10px;
@@ -1437,9 +1461,12 @@ body {
   }
 
   .faq #faq-title {
-    display: block;  /* Đổi thành block để xuống dòng */
-    text-align: center;  /* Căn giữa */
-    margin-bottom: 10px;  /* Khoảng cách dưới tiêu đề */
+    display: block;
+    /* Đổi thành block để xuống dòng */
+    text-align: center;
+    /* Căn giữa */
+    margin-bottom: 10px;
+    /* Khoảng cách dưới tiêu đề */
   }
 }
 
@@ -1635,7 +1662,8 @@ img {
 }
 
 .section.orange {
-  background: linear-gradient(to right, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642); /* Gradient */
+  background: linear-gradient(to right, #FFFF5F, #FB6353, #BF91F1, #0066FF, #000642);
+  /* Gradient */
   color: var(--text--white);
 }
 
@@ -1771,7 +1799,7 @@ img {
   width: 600px;
   height: 350px;
   border-radius: 20px;
-  overflow: hidden; 
+  overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -1866,6 +1894,7 @@ img {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
@@ -1905,7 +1934,7 @@ img {
 
 .logos-slide {
   display: inline-block;
-  width: max-content; 
+  width: max-content;
 
   animation: 35s slide infinite linear;
 }
@@ -1917,11 +1946,11 @@ img {
 
 /* footer */
 .footer {
-  color: white; 
-  display: flex; 
+  color: white;
+  display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -1939,7 +1968,7 @@ img {
 }
 
 .footer .logo-social a {
-  display: inline-block; 
+  display: inline-block;
   margin-right: 20px;
   position: relative;
   left: 10px;
@@ -1948,6 +1977,6 @@ img {
 .footer .logo-social a img {
   width: 50px;
   height: 50px;
-  object-fit: contain; 
+  object-fit: contain;
   cursor: pointer;
 }
