@@ -618,8 +618,8 @@ body {
   }
 
   .talent #talent-title {
-    font-size: 25px;
-    text-align: center;
+    font-size: 25px !important;
+    text-align: center !important;
   }
 
   .talent .section.beige.hero,
