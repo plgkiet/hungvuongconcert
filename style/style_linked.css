@@ -874,9 +874,14 @@ body {
     height: 400px;
   }
 
+  .map .heading-div {
+    display: block;  
+  }
+
 
   .talent .heading-div {
     flex-wrap: wrap;
+
   }
 
   .talent .speakers-grid {
@@ -1392,7 +1397,7 @@ body {
   .heading-div {
     text-align: center;
   }
-  
+
   .event-section .row {
     flex-direction: column; /* Chuyển thành cột dọc cho thiết bị nhỏ */
   }
