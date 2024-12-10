@@ -1393,9 +1393,27 @@ body {
     text-align: center;
   }
   
+  .event-section .row {
+    flex-direction: column; /* Chuyển thành cột dọc cho thiết bị nhỏ */
+  }
+
+  .event-section .image-col,
+  .event-section .text-col {
+    width: 100%; /* Đảm bảo mỗi phần chiếm 100% chiều rộng */
+    margin-bottom: 20px; /* Khoảng cách giữa ảnh và văn bản */
+  }
+
+  .image-col img {
+    width: 100%; /* Ảnh chiếm toàn bộ chiều rộng */
+    height: auto; /* Đảm bảo ảnh giữ tỷ lệ */
+  }
+
+  .event-text p {
+    font-size: 20px; /* Giảm kích thước chữ trên mobile */
+  }
  
   .event-text {
-    color:#000642;
+    color: white;
     padding: 10px;
     text-align: center;
   }
