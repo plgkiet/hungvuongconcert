@@ -77,11 +77,20 @@ body {
     background: linear-gradient(to right, #1DFFA2, #0066FF, #000642);
     color: white;
     border-radius: 20px 0 0 20px; /* Bo tròn góc bên trái */
+    
 }
 
 .data-display h2 {
-    font-size: 24px;
+    font-size: 50px;
     margin-bottom: 20px;
+}
+.ticket-img {
+    text-align: center;
+ 
+}
+.data-display img {
+    width: 500px;
+    height: auto;
 }
 
 .amount {
