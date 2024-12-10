@@ -614,10 +614,7 @@ body {
 @media screen and (max-width: 991px) {
   #talent-section {
     background: none;
-    background: url('./images/kv/talent-bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-color: black;
   }
 
   #talent-title {
