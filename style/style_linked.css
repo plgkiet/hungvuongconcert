@@ -620,8 +620,7 @@ body {
   #talent-title {
     font-size: 24px;
     line-height: 32px;
-    text-align: center; /* Căn giữa văn bản */
-    margin: 0;
+    margin-left: 20px;
   }
 
   #talent-title .letterU {
