@@ -612,9 +612,9 @@ body {
 
 @media screen and (max-width: 991px) {
   #talent-section {
-    background: none;
-    background-color: black;
-    margin-top: 500px;
+    background: none !important;
+    background-color: black !important;
+    margin-top: 200px !important;
   }
 
   #talent-title {
