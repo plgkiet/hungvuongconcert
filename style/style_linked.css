@@ -172,6 +172,7 @@ html.lenis body {
 
 .hero_title {
   text-align: center;
+  font-weight: normal; 
   text-transform: none;
   font-family: 'DFVN 36daysoftype', sans-serif;
   margin: 0;
