@@ -177,6 +177,7 @@ html.lenis body {
   margin: 0;
   padding: 1rem;
   display: block;
+  margin-top: 50px;
 }
 
 .hero_title:nth-child(1) {
