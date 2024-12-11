@@ -615,8 +615,6 @@ body {
     background: none !important;
     background-color: black !important;
     margin-top: 2500px !important;
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
   }
 
   .talent #talent-title {
@@ -1181,8 +1179,8 @@ body {
 
 @media screen and (max-width: 1024px) {
   #ticket-section{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.2rem !important;
+    margin-right: 1.2rem !important;
   }
 
   /* Adjustments for tablets and smaller desktops */
