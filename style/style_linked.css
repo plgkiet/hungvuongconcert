@@ -315,6 +315,24 @@ html.lenis body {
     font-size: 15rem;
   }
 
+  .nav {
+    padding: 10px 0; /* Giảm khoảng cách padding */
+  }
+
+  .nav_wrapper {
+    grid-template-columns: 1fr; /* Các mục xếp chồng thay vì hiển thị ngang */
+    text-align: center; /* Căn giữa nội dung */
+  }
+
+  .nav_item {
+    margin: 5px 0; /* Giảm khoảng cách giữa các mục */
+  }
+
+  .nav-effect {
+    font-size: 1rem; /* Giảm kích thước chữ */
+    line-height: 1.2; /* Giảm khoảng cách giữa các dòng */
+  }
+
   .hero_title {
     font-size: 20rem !important;
   }
