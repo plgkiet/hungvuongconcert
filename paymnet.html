@@ -171,7 +171,8 @@
             }
 
             const totalPrice = ticketPrice * quantity;
-            const message = `Bạn xác nhận thanh toán: ${totalPrice.toFixed(3)}đ. Bạn có muốn tiếp tục?`;
+            const formattedPrice = totalPrice.toLocaleString('vi-VN');  // Định dạng số theo cách Việt Nam (có dấu chấm)
+            const message = `Bạn xác nhận thanh toán: ${formattedPrice}đ. Bạn có muốn tiếp tục?`;
 
             const result = await showConfirmedPopup(message); // Wait until user confirms
 

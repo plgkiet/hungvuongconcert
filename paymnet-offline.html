@@ -87,7 +87,7 @@
     <div class="popup-overlay" id="confirmation-popup">
         <div class="popup-content">
             <h2>Thông báo</h2>
-            <p id="popup-message"></p>
+            <p id="popup-cf-message"></p>
             <button class="popup-confirm-btn" id="popup-confirm-btn">Xác nhận</button>
             <button id="popup-cf-close" class="popup-close-btn">Hủy</button>
         </div>
@@ -172,7 +172,8 @@
 
             // Calculate total price
             const totalPrice = ticketPrice * quantity;
-            const message = `Bạn xác nhận thanh toán: ${totalPrice.toFixed(3)}đ. Bạn có muốn tiếp tục?`;
+            const formattedPrice = totalPrice.toLocaleString('vi-VN');  // Định dạng số theo cách Việt Nam (có dấu chấm)
+            const message = `Bạn xác nhận thanh toán: ${formattedPrice}đ. Bạn có muốn tiếp tục?`;
 
             const result = await showConfirmedPopup(message); // Wait until user confirms
 
