@@ -93,7 +93,7 @@
         const subtotalElement = document.getElementById("subtotal");
         const quantityDisplayElement = document.getElementById("quantity-display");
 
-        const ticketPrice = 320;
+        const ticketPrice = 320000;
         const vatRate = 0.27;
 
         function updateTotalDue() {
@@ -102,8 +102,11 @@
             const totalDue = subtotal;
 
             // Update the displayed values
-            subtotalElement.textContent = `${subtotal.toFixed(3)} VNĐ`;
-            totalDueElement.textContent = `${totalDue.toFixed(3)} VNĐ`;
+            const formattedPrice1 = subtotal.toLocaleString('vi-VN');  // Định dạng số theo cách Việt Nam (có dấu chấm)
+            const formattedPrice2 = totalDue.toLocaleString('vi-VN');  // Định dạng số theo cách Việt Nam (có dấu chấm)
+
+            subtotalElement.textContent = `${formattedPrice1} VNĐ`;
+            totalDueElement.textContent = `${formattedPrice2} VNĐ`;
             quantityDisplayElement.textContent = quantity; // Update quantity display
         }
 
@@ -172,9 +175,8 @@
 
             const totalPrice = ticketPrice * quantity;
             const formattedPrice = totalPrice.toLocaleString('vi-VN');  // Định dạng số theo cách Việt Nam (có dấu chấm)
-            const message = `Bạn xác nhận thanh toán: ${formattedPrice.toFixed(3)}đ. Bạn có muốn tiếp tục?`;
-
-            const result = await showConfirmedPopup(message); // Wait until user confirms
+            const message = `Bạn xác nhận thanh toán: ${formattedPrice}đ. Bạn có muốn tiếp tục?`;
+            const result = await showConfirmedPopup(message); // Gọi hàm để hiển thị popup và chờ người dùng xác nhận
 
             if (result === 'confirmed') {
                 if (imageFile) {
