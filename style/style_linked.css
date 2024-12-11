@@ -1183,8 +1183,8 @@ body {
 
 @media screen and (max-width: 1024px) {
   #ticket-section{
-    margin-left: 1.2rem !important;
-    margin-right: 1.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
   }
 
   /* Adjustments for tablets and smaller desktops */
