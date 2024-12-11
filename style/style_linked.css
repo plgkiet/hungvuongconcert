@@ -315,6 +315,10 @@ html.lenis body {
     font-size: 15rem;
   }
 
+  .hero_title {
+    font-size: 20rem !important;
+  }
+
   .hero {
     padding-top: 8rem;
   }
