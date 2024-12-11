@@ -80,7 +80,7 @@
     <div class="popup-overlay" id="confirmation-popup">
         <div class="popup-content">
             <h2>Thông báo</h2>
-            <p id="popup-message"></p>
+            <p id="popup-cf-message"></p>
             <button class="popup-confirm-btn" id="popup-confirm-btn">Xác nhận</button>
             <button id="popup-cf-close" class="popup-close-btn">Hủy</button>
         </div>
@@ -116,7 +116,7 @@
         function showConfirmedPopup(message) {
             return new Promise((resolve) => {
                 const popupOverlay = document.getElementById("confirmation-popup");
-                const popupMessage = document.getElementById("popup-message");
+                const popupMessage = document.getElementById("popup-cf-message");
                 const popupConfirmBtn = document.getElementById("popup-confirm-btn");
                 const popupCloseBtn = document.getElementById("popup-cf-close");
 
@@ -171,7 +171,7 @@
             }
 
             const totalPrice = ticketPrice * quantity;
-            const message = `Bạn xác nhận thanh toán: ${totalPrice.toFixed(3)} VNĐ. Bạn có muốn tiếp tục ?`;
+            const message = `Bạn xác nhận thanh toán: ${totalPrice.toFixed(3)}đ. Bạn có muốn tiếp tục?`;
 
             const result = await showConfirmedPopup(message); // Wait until user confirms
 
