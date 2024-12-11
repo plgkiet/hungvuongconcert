@@ -19,6 +19,10 @@
                 <p>Số lượng <span id="quantity-display">1</span></p> <!-- Changed this element to display quantity -->
                 <hr>
                 <p class="total">Total due <span id="total-due"></span></p>
+                <br>
+                <p>*Khi mua vé trực tuyến (Online Ticket), bạn sẽ nhận được vé dưới dạng Mã QR.</p>
+                <p>*Mỗi lượt mua tối đa 5 vé, bạn có thể mua nhiều lượt.
+                </p>
             </div>
             <!-- <div class="ticket-img">
                 <img src="./images/normal-ticket.png">
@@ -45,7 +49,7 @@
 
                 <label for="quantity" class="form-label">Số lượng vé</label>
                 <div class="form-group">
-                    <input type="number" class="form-control" id="quantity" name="Quantity" value="1" required />
+                    <input type="number" min="1" max="5" class="form-control" id="quantity" name="Quantity" value="1" required />
                 </div>
 
                 <div class="checkbox">
