@@ -311,6 +311,10 @@ html.lenis body {
     font-size: max(100vw / 768 * 10);
   }
 
+  body {
+    overflow-y: hidden !important;
+  }
+
   h1 {
     font-size: 15rem;
   }
