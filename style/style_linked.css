@@ -1178,7 +1178,9 @@ body {
 /* Base styles remain the same */
 
 @media screen and (max-width: 1024px) {
-
+  #ticket-section{
+    padding: 1rem
+  }
   /* Adjustments for tablets and smaller desktops */
   .ticket-item {
     padding: 4rem;
